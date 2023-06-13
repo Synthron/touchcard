@@ -1,4 +1,4 @@
-20929267530939350
+20934327348735279
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -87570,6 +87570,13 @@ JS 05 MN KT
 4
 4
 eigene
+LQFP-32_7x7mm_P0.8mm_midmount
+LQFP, 32 Pin (https://www.nxp.com/docs/en/package-information/SOT358-1.pdf), footprint by dev@evl.li
+LQFP QFP Midmount
+0
+32
+32
+eigene
 SK-03
 
 
@@ -87598,6 +87605,20 @@ SMB-002
 2
 2
 eigene
+SOT-23-6_MidMount
+6-pin SOT-23 package, Handsoldering
+SOT-23-6 Handsoldering
+0
+6
+6
+eigene
+SOT-223-3_TabPin2_MidMount
+module CMS SOT223 4 pins
+CMS SOT
+0
+4
+3
+eigene
 SRF3225TAC
 
 
@@ -87609,8 +87630,8 @@ SWD_PADS
 
 
 0
-0
-0
+4
+4
 eigene
 TBL00950002GY2GY
 TBL009-500-02GY-2GY-1
