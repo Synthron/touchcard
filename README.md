@@ -2,4 +2,6 @@
 
 Business Card with capacitive touch field
 
-Based in STM32
+Based on STM32
+
+Inspired by [Xenua](https://xenua.me/)
