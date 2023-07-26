@@ -1,0 +1,99 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/media/marco/Daten/Repositories/touchcard/Software/Inc",
+                "/media/marco/Daten/Repositories/touchcard/Software/Src",
+                "/home/marco/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc",
+                "/home/marco/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src",
+                "/home/marco/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Core/Inc",
+                "/home/marco/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Core/Src",
+                "/home/marco/.platformio/packages/framework-stm32cubef0/Drivers/CMSIS/Include",
+                "/home/marco/.platformio/packages/framework-stm32cubef0/Drivers/CMSIS/Device/ST/STM32F0xx/Include",
+                "/home/marco/.platformio/packages/framework-stm32cubef0/Drivers/STM32F0xx_HAL_Driver/Inc",
+                "/home/marco/.platformio/packages/framework-stm32cubef0/Drivers/STM32F0xx_HAL_Driver/Src",
+                "/home/marco/.platformio/packages/framework-stm32cubef0/Drivers/CMSIS/DSP/Include",
+                "/home/marco/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/l3gd20",
+                "/home/marco/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/spfd5408",
+                "/home/marco/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/st7735",
+                "/home/marco/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/stlm75",
+                "/home/marco/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/Common",
+                "/home/marco/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/i3g4250d",
+                "/home/marco/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/hx8347d",
+                "/home/marco/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Adafruit_Shield",
+                "/home/marco/.platformio/packages/framework-stm32cubef0/Utilities/CPU",
+                "/home/marco/.platformio/packages/framework-stm32cubef0/Utilities/Log",
+                "/home/marco/.platformio/packages/framework-stm32cubef0/Utilities/Fonts",
+                "/home/marco/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Inc",
+                "/home/marco/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src",
+                "/home/marco/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/AUDIO/Inc",
+                "/home/marco/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/AUDIO/Src",
+                "/home/marco/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc",
+                "/home/marco/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src",
+                "/home/marco/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc",
+                "/home/marco/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src",
+                "/home/marco/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc",
+                "/home/marco/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/media/marco/Daten/Repositories/touchcard/Software/Inc",
+                    "/media/marco/Daten/Repositories/touchcard/Software/Src",
+                    "/home/marco/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc",
+                    "/home/marco/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src",
+                    "/home/marco/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Core/Inc",
+                    "/home/marco/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Core/Src",
+                    "/home/marco/.platformio/packages/framework-stm32cubef0/Drivers/CMSIS/Include",
+                    "/home/marco/.platformio/packages/framework-stm32cubef0/Drivers/CMSIS/Device/ST/STM32F0xx/Include",
+                    "/home/marco/.platformio/packages/framework-stm32cubef0/Drivers/STM32F0xx_HAL_Driver/Inc",
+                    "/home/marco/.platformio/packages/framework-stm32cubef0/Drivers/STM32F0xx_HAL_Driver/Src",
+                    "/home/marco/.platformio/packages/framework-stm32cubef0/Drivers/CMSIS/DSP/Include",
+                    "/home/marco/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/l3gd20",
+                    "/home/marco/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/spfd5408",
+                    "/home/marco/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/st7735",
+                    "/home/marco/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/stlm75",
+                    "/home/marco/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/Common",
+                    "/home/marco/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/i3g4250d",
+                    "/home/marco/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Components/hx8347d",
+                    "/home/marco/.platformio/packages/framework-stm32cubef0/Drivers/BSP/Adafruit_Shield",
+                    "/home/marco/.platformio/packages/framework-stm32cubef0/Utilities/CPU",
+                    "/home/marco/.platformio/packages/framework-stm32cubef0/Utilities/Log",
+                    "/home/marco/.platformio/packages/framework-stm32cubef0/Utilities/Fonts",
+                    "/home/marco/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Inc",
+                    "/home/marco/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src",
+                    "/home/marco/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/AUDIO/Inc",
+                    "/home/marco/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/AUDIO/Src",
+                    "/home/marco/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc",
+                    "/home/marco/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src",
+                    "/home/marco/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc",
+                    "/home/marco/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Src",
+                    "/home/marco/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc",
+                    "/home/marco/.platformio/packages/framework-stm32cubef0/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60109",
+                "STM32F042x6",
+                "USE_HAL_DRIVER",
+                "F_CPU=48000000",
+                ""
+            ],
+            "compilerPath": "/home/marco/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m0",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
