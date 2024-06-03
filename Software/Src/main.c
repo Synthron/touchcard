@@ -141,6 +141,26 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+
+/*
+    HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);
+
+    ADC_Select(0);
+    uint32_t temp;
+    // calculate median of 5 to reduce noise
+    for (uint8_t i = 0; i < 5; i++)
+    {
+      HAL_ADC_Start(&hadc);
+      while(HAL_ADC_PollForConversion(&hadc, HAL_MAX_DELAY));
+      temp += HAL_ADC_GetValue(&hadc);
+      delay_us(5);
+    }
+    raw[0][0] = temp / 5;
+    temp = 0;
+    sprintf(out_buf, "%d\n", raw[0][0]);
+    CDC_Transmit_FS((uint8_t *)out_buf, strlen(out_buf));
+    HAL_Delay(250);*/
+    
     Scan_Pad();
 
     int32_t temp;
@@ -151,13 +171,13 @@ int main(void)
         temp = (int16_t)raw[i][j] - (int16_t)cal[i][j];
         if (temp < 0)
           temp = 0;
-        values[i][j] = raw[i][j]; //(uint16_t)temp;
+        values[i][j] = /*raw[i][j];*/ (uint16_t)temp;
       }
     }
 
     for (uint8_t i = 0; i < 7; i++)
     {
-      sprintf(out_buf, "%d:%d,%d,%d,%d,%d,%d,%d,%d,%d,%d\n", i,
+      sprintf(out_buf, "%3d:%3d,%3d,%3d,%3d,%3d,%3d,%3d,%3d,%3d,%3d\n", i,
               values[0][i],
               values[1][i],
               values[2][i],
@@ -171,7 +191,8 @@ int main(void)
       CDC_Transmit_FS((uint8_t *)out_buf, strlen(out_buf));
     }
 
-    HAL_Delay(100);
+    HAL_Delay(1000);
+
 
     /* USER CODE END WHILE */
 
@@ -292,7 +313,7 @@ void Scan_ADC(uint8_t col)
     for (uint8_t i = 0; i < 5; i++)
     {
       HAL_ADC_Start(&hadc);
-      HAL_ADC_PollForConversion(&hadc, HAL_MAX_DELAY);
+      while(HAL_ADC_PollForConversion(&hadc, HAL_MAX_DELAY));
       temp += HAL_ADC_GetValue(&hadc);
       delay_us(5);
     }
